@@ -1,0 +1,13 @@
+### Criar novo review (POST)
+POST https://localhost:7211/review
+Content-Type: application/json
+{
+  "productId": 4,
+  "rating": 5
+}
+
+### Deletar review (DELETE)
+DELETE https://localhost:7211/review/2
+
+### Obter todos os reviews (GET)
+GET https://localhost:7211/reviews
